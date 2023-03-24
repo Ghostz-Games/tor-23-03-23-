@@ -24,8 +24,8 @@ public class FindFemFejl {
 
 
         // Reserver det sidste sæde i den sidste række
-        int numberOfRows = biogrande.getRows()-1;
-        int numberOfSeats = biogrande.getSeats()-1;
+        int numberOfRows = biogrande.getRows();
+        int numberOfSeats = biogrande.getSeats();
         biogrande.reserve(numberOfRows, numberOfSeats);
 
         // Afbestil reservation på række 1, sæde 5
