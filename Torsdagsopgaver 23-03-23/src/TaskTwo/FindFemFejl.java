@@ -5,10 +5,10 @@ public class FindFemFejl {
     public static void main(String[] args) {
 
         /*Fejl fundet:
-         1. The double array was not instansiated before trying to fill it
+         1. The double array was not instantiated before trying to fill it
          2. The double array was not filled before trying to change the content
-         3. The numberOfRows and the numberOfSeats variables were holding the length of the arrays, and not the amount of indexs
-         4. When canceling a reservation, and checking for a reservated seat, this "x" was not capitalized
+         3. The numberOfRows and the numberOfSeats variables were holding the length of the arrays, and not the amount of indexes
+         4. When canceling a reservation, and checking for a reserved seat, this "x" was not capitalized, also the O was a zero.
          5. The system did not print the cinema again after making the changes
          6. The system was printing the first result as NULL, changed by making the string empty rather than defining it as nothing*/
 
