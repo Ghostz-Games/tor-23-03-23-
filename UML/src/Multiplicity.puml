@@ -1,0 +1,27 @@
+@startuml
+'https://plantuml.com/object-diagram
+
+object Field
+object Board
+object Die
+object Player
+object Building
+object Deed
+object Account
+object house
+object hotel
+object Card
+
+Building *-- house: is-a
+Building *-- hotel: is-a
+Field "1" *-- "0..4" Building
+Player "1" *-- "1" Account
+Board "1" *-- "40" Field: has
+Board "1" *-- "1..4" Player: has
+Player *-- Deed
+Player "1" *-- "2" Die
+Player "1" *-- "1" Field
+Board "1" *-- "100" Card
+
+
+@enduml

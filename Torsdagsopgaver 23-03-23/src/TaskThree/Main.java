@@ -27,6 +27,7 @@ public class Main {
 
 
 
+
         for(Person p : people){
             if(p.addCourse("Java 1.0") && p instanceof Student){
                 System.out.println(p.getName() +" was added to the course: Java 1.0");
@@ -35,11 +36,10 @@ public class Main {
             }else if (!p.addCourse("Java 1.0") && p instanceof Student){
                 System.out.println(p.getName() + " has already passed this course!");
             }else if(!p.addCourse("Java 1.0") && p instanceof Teacher){
-                System.out.println(p.getName() + " Does not meet the required qualifications to teach this course");
+                System.out.println(p.getName() + " does not meet the required qualifications to teach this course");
             }
         }
-
-
+        
     }
 
 }

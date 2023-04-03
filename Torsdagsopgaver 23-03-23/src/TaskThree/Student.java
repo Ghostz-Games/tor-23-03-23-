@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Student extends Person {
 
-    private ArrayList<String> passedCourses = new ArrayList<>();
+    private ArrayList<String> passedCourses;
     private ArrayList<String> currentCourses = new ArrayList<>();
 
     public Student(String name, ArrayList<String> passedCourses) {
